@@ -1,3 +1,5 @@
+// Combines projects 06 and 07 of the starter kit projects book
+
 int notes[] = {262, 294, 330, 349};
 
 int sensorValue;
@@ -49,4 +51,4 @@ void loop() {
 
   tone(8, finalFrequency); // play the frequency. piezo is on pin 8
   delay(10);
-}                                                           
+}
